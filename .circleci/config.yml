@@ -9,7 +9,7 @@ jobs:
       # sử dụng môi trường chạy nodejs thông quan docker
       - image: circleci/node:12.13.0
 
-    working_directory: ~/todo-typescript
+    working_directory: ~/test-circleCI
 
     steps:
       - checkout
